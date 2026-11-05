@@ -1,0 +1,17 @@
+{
+  "short_name": "VortexVPN",
+  "name": "Vortex VPN Systems",
+  "icons": [
+    {
+      "src": "https://icons8.com",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/vortex-vpn/index.html",
+  "background_color": "#0b0c10",
+  "theme_color": "#66fcf1",
+  "display": "standalone",
+  "orientation": "portrait"
+}

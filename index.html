@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VORTEX — VPN нового поколения</title>
+<meta name="description" content="VORTEX — чёрно-белый VPN. Безлимитный трафик, 60+ локаций, no-logs. Минимализм. Максимум скорости.">
+<link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+<div class="noise"></div>
+<div class="scanline"></div>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="container nav">
+    <a class="logo" href="#"><span class="logo-mark">V</span>VORTEX</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#features">Система</a>
+      <a href="#platforms">Платформы</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#faq">FAQ</a>
+      <a href="#pricing" class="btn btn-inv">Подключиться</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню">[+]</button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="container hero-inner">
+    <div>
+      <div class="sys-tag"><span class="blink"></span>SYSTEM ONLINE · 12 408 NODES ACTIVE</div>
+      <h1>Приватность —<br>это <span class="stroke">стандарт.</span><br>Не опция.</h1>
+      <p class="hero-sub">VORTEX шифрует весь трафик и стирает следы. No-logs. Безлимит. 60+ локаций. Ноль компромиссов.</p>
+      <div class="hero-actions">
+        <a href="#pricing" class="btn btn-inv">Инициализировать →</a>
+        <a href="#features" class="btn">Документация</a>
+      </div>
+      <div class="hero-meta">
+        <div><b data-count="60">0</b><span>локаций</span></div>
+        <div><b data-count="10" data-suffix=" Гбит/с">0</b><span>канал</span></div>
+        <div><b>0</b><span>логов</span></div>
+      </div>
+    </div>
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="tdot"></span><span class="tdot"></span><span class="tdot"></span>
+        <span class="tname">vortex@core:~</span>
+      </div>
+      <div class="terminal-body" id="term"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= МАРКИЗА ================= -->
+<div class="marquee">
+  <div class="marquee-track" id="marquee">
+    <span>NL · Амстердам</span><span>DE · Франкфурт</span><span>US · Нью-Йорк</span><span>JP · Токио</span>
+    <span>SG · Сингапур</span><span>SE · Стокгольм</span><span>CH · Цюрих</span><span>GB · Лондон</span>
+    <span>FR · Париж</span><span>CA · Торонто</span><span>BR · Сан-Паулу</span><span>AU · Сидней</span>
+  </div>
+</div>
+
+<!-- ================= ВОЗМОЖНОСТИ ================= -->
+<section id="features">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">// возможности</div>
+      <h2>Система защиты</h2>
+      <p>Каждый модуль спроектирован для одной цели — чтобы ваш трафик оставался вашим.</p>
+    </div>
+    <div class="features reveal">
+      <div class="feature">
+        <div class="num"><span>MOD_01</span><span class="glyph">»</span></div>
+        <h3>Скорость</h3>
+        <p>Собственные серверы 10 Гбит/с, протокол WireGuard. Потеря скорости &lt; 5%. Стриминг и игры без задержек.</p>
+      </div>
+      <div class="feature">
+        <div class="num"><span>MOD_02</span><span class="glyph">∅</span></div>
+        <h3>No-logs</h3>
+        <p>Ноль журналов активности, IP и DNS-запросов. Данных нет — передавать нечего. Проверено независимым аудитом.</p>
+      </div>
+      <div class="feature">
+        <div class="num"><span>MOD_03</span><span class="glyph">#</span></div>
+        <h3>Шифрование</h3>
+        <p>AES-256 + ChaCha20. Kill Switch мгновенно обрывает соединение при обрыве туннеля.</p>
+      </div>
+      <div class="feature">
+        <div class="num"><span>MOD_04</span><span class="glyph">◎</span></div>
+        <h3>Геолокации</h3>
+        <p>60+ локаций в Европе, Азии, Америке и Океании. Смена сервера — один клик, без переподключения.</p>
+      </div>
+      <div class="feature">
+        <div class="num"><span>MOD_05</span><span class="glyph">×10</span></div>
+        <h3>Устройства</h3>
+        <p>До 10 устройств на аккаунт. Или один роутер — и вся домашняя сеть под защитой разом.</p>
+      </div>
+      <div class="feature">
+        <div class="num"><span>MOD_06</span><span class="glyph">▲</span></div>
+        <h3>Stealth-режим</h3>
+        <p>Маскировка трафика против DPI. Работает там, где обычные VPN-датаграммы блокируются.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ПЛАТФОРМЫ ================= -->
+<section class="platforms" id="platforms">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">// совместимость</div>
+      <h2>Все платформы</h2>
+      <p>Один аккаунт. Полная поддержка. Установка меньше минуты.</p>
+    </div>
+    <div class="reveal" style="overflow-x:auto">
+      <table class="plat-table">
+        <thead>
+          <tr><th>Платформа</th><th class="hide-m">Версия</th><th>WireGuard</th><th>Stealth</th><th>Kill Switch</th><th>Статус</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>WINDOWS</td><td class="hide-m">v3.2.1</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">● СТАБИЛЬНО</td></tr>
+          <tr><td>MACOS</td><td class="hide-m">v3.2.0</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">● СТАБИЛЬНО</td></tr>
+          <tr><td>LINUX</td><td class="hide-m">v3.1.8</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">● СТАБИЛЬНО</td></tr>
+          <tr><td>ANDROID</td><td class="hide-m">v3.2.3</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">● СТАБИЛЬНО</td></tr>
+          <tr><td>IOS</td><td class="hide-m">v3.2.2</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">[ДА]</td><td class="status-ok">● СТАБИЛЬНО</td></tr>
+          <tr><td>ROUTER</td><td class="hide-m">v2.9.5</td><td class="status-ok">[ДА]</td><td>[НЕТ]</td><td class="status-ok">[ДА]</td><td class="status-ok">● СТАБИЛЬНО</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ТАРИФЫ ================= -->
+<section id="pricing">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">// тарифы</div>
+      <h2>Выберите протокол</h2>
+      <p>30 дней гарантии возврата. Отмена в один клик. Никаких скрытых условий.</p>
+    </div>
+    <div class="pricing-grid reveal">
+      <div class="price-card">
+        <div class="plan-name">FREE<span class="tag">TIER_0</span></div>
+        <div class="plan-price">0 ₽<small>/мес</small></div>
+        <div class="plan-period">// навсегда</div>
+        <ul class="plan-list">
+          <li>3 локации</li>
+          <li>10 ГБ трафика / мес</li>
+          <li>1 устройство</li>
+          <li>AES-256</li>
+          <li class="off">Stealth-режим</li>
+          <li class="off">Поддержка 24/7</li>
+        </ul>
+        <a href="#" class="btn" style="text-align:center">Запустить</a>
+      </div>
+      <div class="price-card featured">
+        <div class="plan-name">YEAR<span class="tag">-43%</span></div>
+        <div class="plan-price">199 ₽<small>/мес</small></div>
+        <div class="plan-period">// 2 388 ₽ при оплате за год</div>
+        <ul class="plan-list">
+          <li>60+ локаций</li>
+          <li>Безлимитный трафик</li>
+          <li>10 устройств</li>
+          <li>Stealth + 4K-стриминг</li>
+          <li>Приоритетный канал</li>
+          <li>Поддержка 24/7</li>
+        </ul>
+        <a href="#" class="btn" style="text-align:center">Активировать →</a>
+      </div>
+      <div class="price-card">
+        <div class="plan-name">MONTH<span class="tag">TIER_1</span></div>
+        <div class="plan-price">349 ₽<small>/мес</small></div>
+        <div class="plan-period">// помесячная оплата</div>
+        <ul class="plan-list">
+          <li>60+ локаций</li>
+          <li>Безлимитный трафик</li>
+          <li>5 устройств</li>
+          <li>Stealth + 4K-стриминг</li>
+          <li class="off">Приоритетный канал</li>
+          <li class="off">Поддержка 24/7</li>
+        </ul>
+        <a href="#" class="btn" style="text-align:center">Запустить</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" style="padding-top:30px">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="kicker">// протокол вопросов</div>
+      <h2>FAQ</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q"><span><span class="idx">Q.01</span>Это легально и безопасно?</span><span class="chev">+</span></button>
+        <div class="faq-a"><div>Использование VPN легально в большинстве стран. Весь трафик между устройством и сервером VORTEX шифруется — провайдер и публичные Wi-Fi сети не видят, какие сайты вы посещаете.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span><span class="idx">Q.02</span>Насколько падает скорость?</span><span class="chev">+</span></button>
+        <div class="faq-a"><div>Обычно не более 5–10% благодаря WireGuard и серверам 10 Гбит/с. Для стриминга, звонков и игр это незаметно.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span><span class="idx">Q.03</span>Что значит no-logs на практике?</span><span class="chev">+</span></button>
+        <div class="faq-a"><div>Мы не храним журналы активности, IP-адреса и DNS-запросы. Даже по официальному запросу нам нечего предоставить — физически.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span><span class="idx">Q.04</span>Сколько устройств можно подключить?</span><span class="chev">+</span></button>
+        <div class="faq-a"><div>FREE — 1, MONTH — 5, YEAR — 10 устройств. Либо настройте VORTEX на роутере и защитите всю сеть целиком.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span><span class="idx">Q.05</span>Как вернуть деньги?</span><span class="chev">+</span></button>
+        <div class="faq-a"><div>В течение 30 дней после оплаты напишите в поддержку — вернём сумму полностью, без вопросов.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section style="padding-top:20px">
+  <div class="container">
+    <div class="cta reveal">
+      <div class="kicker" style="justify-content:center">// инициализация</div>
+      <h2>Подключитесь.<br>Исчезните из логов.</h2>
+      <p>Скачайте VORTEX бесплатно. Без карты. Без регистрации. Один клик — и трафик зашифрован.</p>
+      <a href="#" class="btn btn-inv" style="font-size:.95rem;padding:17px 48px">Скачать VORTEX →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="logo-foot">VORTEX_</span>
+        <p style="color:var(--dim);font-size:.88rem;max-width:280px">VPN-система нового поколения. Минимализм. Скорость. Ноль следов.</p>
+      </div>
+      <div>
+        <h4>Система</h4>
+        <a href="#features">Возможности</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#platforms">Скачать</a>
+      </div>
+      <div>
+        <h4>Компания</h4>
+        <a href="#">О проекте</a>
+        <a href="#">Блог</a>
+        <a href="#">Контакты</a>
+      </div>
+      <div>
+        <h4>Правовое</h4>
+        <a href="#">Конфиденциальность</a>
+        <a href="#">Условия использования</a>
+        <a href="#">Возврат средств</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VORTEX SYSTEMS</span>
+      <span>UPTIME 99.98% · ALL NODES OPERATIONAL</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

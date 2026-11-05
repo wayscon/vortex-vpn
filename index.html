@@ -7,6 +7,15 @@
 <meta name="description" content="VORTEX — чёрно-белый VPN. Безлимитный трафик, 60+ локаций, no-logs. Минимализм. Максимум скорости.">
 <link rel="stylesheet" href="style.css">
 <base target="_blank">
+  <!-- Подключение манифеста приложения -->
+<link rel="manifest" href="manifest.json">
+
+<!-- Скрипт активации приложения на телефоне -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
 </head>
 <body>
 
